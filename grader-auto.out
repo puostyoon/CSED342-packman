@@ -1,0 +1,122 @@
+extraCredit: 0
+fatalError: false
+maxExtraCredit: 0
+maxTotalPoints: 3
+messages: []
+mode: auto
+parts:
+- description: Tests minimax for timeout on smallClassic.
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 10
+  messages: []
+  name: 1a-1-basic
+  points: 1
+  seconds: 0
+- description: Tests minimax
+  extraCredit: false
+  maxPoints: 5
+  maxSeconds: 10
+  messages:
+  - 'Exception thrown: <class ''NameError''> -- name ''solution'' is not defined'
+  - "  File \"C:\\Users\\dongh\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\2022-1\\\uC778\
+    \uACF5\uC9C0\uB2A5\\Assignment1\\PartB_coding\\grader.py\", line 145, in <lambda>\n\
+    \    grader.addHiddenPart('1a-2-hidden', lambda : testHidden('MinimaxAgent'),\
+    \ 5, maxSeconds=maxSeconds, description='Tests minimax')\n"
+  - "  File \"C:\\Users\\dongh\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\2022-1\\\uC778\
+    \uACF5\uC9C0\uB2A5\\Assignment1\\PartB_coding\\grader.py\", line 103, in testHidden\n\
+    \    solAgent = getattr(solution, agentFullName)(depth=depth)\n"
+  name: 1a-2-hidden
+  points: 0
+  seconds: 0
+- description: Tests alphabeta for timeout on smallClassic.
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 5
+  messages: []
+  name: 2b-1-basic
+  points: 1
+  seconds: 0
+- description: Tests alphabeta
+  extraCredit: false
+  maxPoints: 5
+  maxSeconds: 10
+  messages:
+  - 'Exception thrown: <class ''NameError''> -- name ''solution'' is not defined'
+  - "  File \"C:\\Users\\dongh\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\2022-1\\\uC778\
+    \uACF5\uC9C0\uB2A5\\Assignment1\\PartB_coding\\grader.py\", line 148, in <lambda>\n\
+    \    grader.addHiddenPart('2b-2-hidden', lambda : testHidden('AlphaBetaAgent'),\
+    \ 5, maxSeconds=maxSeconds, description='Tests alphabeta')\n"
+  - "  File \"C:\\Users\\dongh\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\2022-1\\\uC778\
+    \uACF5\uC9C0\uB2A5\\Assignment1\\PartB_coding\\grader.py\", line 103, in testHidden\n\
+    \    solAgent = getattr(solution, agentFullName)(depth=depth)\n"
+  name: 2b-2-hidden
+  points: 0
+  seconds: 0
+- description: Tests expectimax for timeout on smallClassic.
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 10
+  messages: []
+  name: 3a-1-basic
+  points: 1
+  seconds: 0
+- description: Tests expectimax
+  extraCredit: false
+  maxPoints: 5
+  maxSeconds: 10
+  messages:
+  - 'Exception thrown: <class ''NameError''> -- name ''solution'' is not defined'
+  - "  File \"C:\\Users\\dongh\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\2022-1\\\uC778\
+    \uACF5\uC9C0\uB2A5\\Assignment1\\PartB_coding\\grader.py\", line 151, in <lambda>\n\
+    \    grader.addHiddenPart('3a-2-hidden', lambda : testHidden('ExpectimaxAgent'),\
+    \ 5, maxSeconds=maxSeconds, description='Tests expectimax')\n"
+  - "  File \"C:\\Users\\dongh\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\2022-1\\\uC778\
+    \uACF5\uC9C0\uB2A5\\Assignment1\\PartB_coding\\grader.py\", line 103, in testHidden\n\
+    \    solAgent = getattr(solution, agentFullName)(depth=depth)\n"
+  name: 3a-2-hidden
+  points: 0
+  seconds: 0
+- description: Check if score at least 700 on smallClassic.
+  extraCredit: false
+  maxPoints: 0
+  maxSeconds: 300
+  messages: []
+  name: 4a-1-hidden
+  points: 0
+  seconds: 7
+  side:
+    score: 1539.55
+- description: Check if score at least 1000 on smallClassic.
+  extraCredit: false
+  maxPoints: 0
+  maxSeconds: 300
+  messages: []
+  name: 4a-2-hidden
+  points: 0
+  seconds: 0
+- description: Check if score at least 1200 on smallClassic.
+  extraCredit: false
+  maxPoints: 0
+  maxSeconds: 300
+  messages: []
+  name: 4a-3-hidden
+  points: 0
+  seconds: 0
+- description: Check if score at least 1400 on smallClassic.
+  extraCredit: false
+  maxPoints: 0
+  maxSeconds: 300
+  messages: []
+  name: 4a-4-hidden
+  points: 0
+  seconds: 0
+- description: Check if score at least 1500 on smallClassic.
+  extraCredit: false
+  maxPoints: 5
+  maxSeconds: 300
+  messages: []
+  name: 4a-5-hidden
+  points: 5
+  seconds: 0
+totalPoints: 3
